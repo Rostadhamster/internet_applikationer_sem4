@@ -1,0 +1,111 @@
+/*------------Picture----------*/
+img{
+    max-width:30%;
+	height:auto;
+    border-radius: 5px;
+    float: left;
+    margin-right: 5%;
+}
+/*------------Ingredients----------*/
+.ingredients{
+    background-color: #b59b84;
+    width :55%;
+    padding: 5%;
+    float:right;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+/*------------How to----------*/
+
+.HowTo{
+    background-color:#b59b84;
+    width: 55%;
+    padding: 5%;
+    float: right;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+
+/*------------Comments----------*/
+
+.comments textarea{
+    background-color: #fff;
+    width: 400px;
+    height: 80px;
+    resize: none;
+    
+}
+
+.comments button{
+    background-color: #282828;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color:#fff;
+    font-family: "Times New Roman";
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.comment-box{
+    background-color: #fff;
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.comment-box-p{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.delete-form {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.delete-form-button{
+    background-color: #fff;
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    opacity: 0.7;
+}
+
+.delete-form-button:hover{
+    opacity: 1;
+}
+
+.comments{
+    clear:left;
+    clear:right;
+    
+    background-color: #cacdd9;
+    width: 99%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10%; 
+    
+}
+
+.comments li{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-style: italic;
+}

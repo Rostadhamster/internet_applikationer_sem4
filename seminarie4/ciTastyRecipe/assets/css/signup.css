@@ -1,0 +1,23 @@
+/*-----------Sign up page -------------*/
+.reg{
+    background-color: #b59b84;
+    width :50%;
+    padding: 5%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 5px #888888;
+        
+    margin-top: 5%;
+    
+}
+
+.table ul li{
+    margin-bottom: 5px;
+}
+
+.table ul li button{
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}

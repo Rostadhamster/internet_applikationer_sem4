@@ -1,0 +1,90 @@
+/*--------- header --------------*/
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 40px;     
+}
+h2{
+    font-family: "Times New Roman";
+    font-size: 20px;     
+}
+/*--------- Body--------------*/
+
+.body{
+    background-color: rgb(252,251,227);
+    font-size: 87.5%;
+    font-family: "Times New Roman", 'lucida sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    clear: both;
+}
+
+/*--------- Nav  --------------*/
+.body .nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #602f28;
+    margin-top: 1%;
+    border-radius: 5px;
+    
+}
+.body .nav .active{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d1e19;
+    top:0;
+}
+
+.body .nav li {
+    float: left;
+    border-right: 1px solid rgb(252,251,227);
+}
+
+
+.body .nav li:last-child {
+    border-right: none;
+}
+
+ .body .nav li a {
+    display: block;
+    color: rgb(252,251,227);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.body .nav li a:hover {
+    background-color: rgba(252,251,227, 0.2);
+}
+/*--------- Nav log in  --------------*/
+.body .nav form {
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+    
+}
+
+.body .nav button{
+    cursor: pointer;
+    font-family: "Times New Roman";
+    border-radius: 5px;
+}
+
+/*--------- welcome text --------------*/
+
+.welcome{
+    background-color: #b59b84;
+    float:right;
+    font-family: "Times New Roman";
+    text-align: center;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+    
+}
